@@ -1,0 +1,9 @@
+Building Songcoin
+
+See doc/readme-qt.rst for instructions on building Songcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Songcoin.
+
+See doc/build-*.txt for instructions on building songcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Songcoin.
