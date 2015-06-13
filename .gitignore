@@ -1,0 +1,34 @@
+src/*.exe
+src/songcoin
+src/songcoind
+src/test_songcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.songcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+songcoin-qt
+Songcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+songcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
